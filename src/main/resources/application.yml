@@ -1,0 +1,10 @@
+spring:
+  elasticsearch:
+    rest:
+      uris: http://10.133.89.215:31184
+  data:
+    elasticsearch:
+      cluster-name: docker-cluster
+      cluster-nodes: 10.133.89.215:31066
+
+
